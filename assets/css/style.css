@@ -129,9 +129,17 @@ nav.scrolled {
 }
 #intro-contacts i {
   font-size: 25px;
-  padding: 0rem 1.3rem;
+  padding: 0 0 0 1.3rem;
   color: rgba(255, 255, 255, 0.5);
 }
+@media (max-width: 991.98px) { 
+  #intro-contacts i {
+    padding: 0 1.3rem 0 0 ;
+  }
+  #intro-contacts {
+    bottom: 10px;
+  }
+ }
 #about {
   margin-top: 50px;
 }
